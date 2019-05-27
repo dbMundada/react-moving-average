@@ -1,28 +1,68 @@
-.App {
-  text-align: center;
+body { font: 12px Arial; padding: 0 4%; }
+
+.recharts-cartesian-axis-line,
+.recharts-cartesian-axis-tick-line {
+  stroke: #fff;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.wrapper-box {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: 1px 0px 1px 1px #ddd
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.live-graph-box {
+  background-color: red;
+  color: #fff;
+  margin: 10px 1%;
+  width: 48%;
+  display: inline-block;
 }
 
-.App-title {
-  font-size: 1.5em;
+.changePercentageNum {
+  font-weight: 600;
+  font-size: 30px;
+  margin: 20px 20px 0 20px;
 }
 
-.App-intro {
-  font-size: large;
+.average {
+  font-weight: 600;
+  font-size: 30px;
+  margin: 20px 20px 0 20px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.average > span.big { font-size: 42px; }
+
+select.currency-selector {
+  border-radius: 2px;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  margin: 20px 20px 0 20px;
+  padding-bottom: 2px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.red { background: #DC143C; }
+.darkred { background: darkred; }
+.lightgreen { background: green; }
+.darkgreen { background: darkgreen; }
+
+.row {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.align-right {
+  display: inline-block;
+  float: right;
+}
+
+.num-tick-box { margin: 0 20px; }
+.tick-adjuster { cursor: pointer; }
+
+.tick-number {
+  font-size: 24px;
+  font-weight: 600;
 }
