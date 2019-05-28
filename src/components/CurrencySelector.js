@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/CurrencySelector.css';
 
 const CurrencySelector = (props) => {
   const {

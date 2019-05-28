@@ -2,6 +2,7 @@ import React, { PureComponent } from 'react';
 import {
   LineChart,
   Line,
+  ResponsiveContainer,
   XAxis,
 } from 'recharts';
 
@@ -41,18 +42,25 @@ export default class StockChart extends PureComponent {
     const { stocks, trend } = this.props;
     const data = this.generateStockData(stocks);
     return (
-      <LineChart
-        className={trend}
-        width={555}
-        height={170}
-        data={data}
-        margin={{
-          top: 15, right: 10, left: 10, bottom: 0,
-        }}
-      >
-        <XAxis dataKey="tick" height={60} tick={<CustomizedAxisTick />} fill="#fff" />
-        <Line type="monotone" dataKey="stock" stroke="#fff" fontSize={10} label={<CustomizedLabel />} />
-      </LineChart>
+      <div style={{ width: '100%', height: 170 }}>
+        <ResponsiveContainer>
+          <LineChart
+            className={trend}
+            data={data}
+            margin={{
+              top: 15, right: 10, left: 10, bottom: 0,
+            }}>
+            <XAxis dataKey="tick"
+              tick={<CustomizedAxisTick />}
+              fill="#fff" />
+            <Line type="step"
+              dataKey="stock"
+              stroke="#fff"
+              fontSize={10}
+              label={<CustomizedLabel />} />
+          </LineChart>
+        </ResponsiveContainer>
+      </div>
     );
   }
 }

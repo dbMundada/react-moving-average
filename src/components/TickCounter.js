@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/TickCounter.css';
 
 const TickCounter = (props) => {
   const { numTicks, updateTicks } = props;

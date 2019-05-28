@@ -1,0 +1,7 @@
+.num-tick-box { margin: 0 20px; }
+.tick-adjuster { cursor: pointer; }
+
+.tick-number {
+  font-size: 24px;
+  font-weight: 600;
+}

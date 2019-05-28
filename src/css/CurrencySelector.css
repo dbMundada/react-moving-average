@@ -1,0 +1,10 @@
+select.currency-selector {
+  border-radius: 2px;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  margin: 20px 20px 0 20px;
+  padding-bottom: 2px;
+  font-size: 24px;
+  font-weight: 600;
+}

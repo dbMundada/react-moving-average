@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/MovingAverageLabel.css';
 
 const MovingAverageLabel = (props) => {
   const { average } = props;

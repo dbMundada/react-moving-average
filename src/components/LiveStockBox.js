@@ -4,6 +4,7 @@ import StockChart from './StockChart';
 import TickCounter from './TickCounter';
 import CurrencySelector from './CurrencySelector';
 import MovingAverageLabel from './MovingAverageLabel';
+import '../css/LiveStockBox.css';
 
 class LiveStockBox extends Component {
   constructor() {
