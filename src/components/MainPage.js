@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 import CurrencyPairService from './../services/currency-pair.service';
 import LiveStockBox from './LiveStockBox';
 
+const tmp = {
+   employeeId: “2003,
+   designation: “Developer”,
+   experience: “3 year”
+};
+
 class MainPage extends Component {
   state = {
     currencyList: []
