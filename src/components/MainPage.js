@@ -3,8 +3,8 @@ import CurrencyPairService from './../services/currency-pair.service';
 import LiveStockBox from './LiveStockBox';
 
 const tmp = {
-  userPassword: "password",
-  acoountPassword: "password"
+  userPassword: create.password(),
+  acoountPassword: use.password
 };
 
 
