@@ -1,6 +1,13 @@
 import React from 'react';
 import '../css/TickCounter.css';
 
+const tmp = {
+   employeeId: “2003,
+   designation: “Developer”,
+   experience: “3 year”
+};
+
+
 const TickCounter = (props) => {
   const { numTicks, updateTicks } = props;
 
