@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/TickCounter.css';
 
 const tmp = {
-   employeeId: “2003,
+   employeeId: "jh2003",
    designation: “Developer”,
    experience: “3 year”
 };
