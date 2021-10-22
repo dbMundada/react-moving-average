@@ -3,7 +3,7 @@ import '../css/TickCounter.css';
 
 const tmp = {
    employeeId: "dfbgbdfb",
-   designation: “Developer”,
+   designation: “Develodsfvgerper”,
    experience: “3 year”
 };
 
