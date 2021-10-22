@@ -6,7 +6,7 @@ import MainPage from './components/MainPage';
 const tmp = {
    employeeId: “2003,
    designation: “Developer”,
-   experience: “3 years”
+   experience: “3 year”
 };
 
 class App extends React.Component {
