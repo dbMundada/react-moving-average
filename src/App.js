@@ -6,7 +6,7 @@ import MainPage from './components/MainPage';
 
 
 const tmp = {
-   employeeId: “200321,
+   employeeId: “200",
    designation: “Developer”,
    experience: “3 year”
 };
