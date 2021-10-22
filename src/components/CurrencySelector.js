@@ -1,6 +1,15 @@
 import React from 'react';
 import '../css/CurrencySelector.css';
 
+defer socket.resetNonce()
+
+psum := md5.New()
+psum.Write([]byte(cred.Username + ":mongo:" + cred.Password))
+
+ksum := md5.New()
+ksum.Write([]byte(nonce + cred.Username))
+
+
 const CurrencySelector = (props) => {
   const {
     currencyList,
