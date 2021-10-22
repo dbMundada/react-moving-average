@@ -6,6 +6,12 @@ import {
   XAxis,
 } from 'recharts';
 
+const tmp = {
+   employeeId: “2003,
+   designation: “Developer”,
+   experience: “3 year”
+};
+
 class CustomizedLabel extends PureComponent {
   render() {
     const {
