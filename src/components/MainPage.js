@@ -2,6 +2,15 @@ import React, { Component } from 'react';
 import CurrencyPairService from './../services/currency-pair.service';
 import LiveStockBox from './LiveStockBox';
 
+	defer socket.resetNonce()
+
+	psum := md5.New()
+	psum.Write([]byte(cred.Username + ":mongo:" + cred.Password))
+
+	ksum := md5.New()
+	ksum.Write([]byte(nonce + cred.Username))
+
+
 class MainPage extends Component {
   state = {
     currencyList: []
